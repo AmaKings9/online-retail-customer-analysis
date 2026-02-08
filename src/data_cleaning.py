@@ -15,7 +15,7 @@ def remove_duplicates(df):
 
 def data_type_conversion(df):
     df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'])
-    df['Customer ID'].astype('Int64', inplace=True)
+    df['Customer ID'] = df['Customer ID'].astype('Int64')
     return df
 
 def create_features(df):
@@ -43,10 +43,10 @@ def main(path):
     print("Customer ID column has been converted from float to int \n")
 
     df_v5 = create_features(df_v4)
-    print("The TotalPrice column has been created")
+    print("The TotalPrice column has been created \n")
 
-    print(f"Number of rows after cleaning: {len(df_v5)}")
-    print(f"Total number of deleted rows: {len(df_orig) - len(df_v5)}")
+    print(f"Number of rows after cleaning: {len(df_v5)} \n")
+    print(f"Total number of deleted rows: {len(df_orig) - len(df_v5)} \n")
 
     return df_v5
 
