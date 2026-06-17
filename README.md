@@ -219,7 +219,7 @@ Used to validate cluster quality and separation.
 #### Customer Percentage vs Revenue Percentage
 
 <p align="center">
-  <img src="figures/customer%_vs_revenue%_by_cluster.png" width="700">
+  <img src="figures/customer_vs_revenue_by_cluster.png" width="700">
 </p>
 
 #### RFM Distribution by Cluster
