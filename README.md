@@ -393,6 +393,8 @@ pip install -r requirements.txt
 
 ## Author
 
+Amairani Reyes - B.S. Computer Engineer Student
+
 Data Analytics Portfolio Project focused on Customer Segmentation, RFM Analysis and K-Means Clustering.
 
 Developed as part of a professional portfolio to demonstrate data cleaning, exploratory analysis, customer analytics, machine learning and business-oriented decision making.
